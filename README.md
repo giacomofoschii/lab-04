@@ -8,10 +8,10 @@ v.1.0.0-20250316
 
 - module-lab-1.5 - Thread Liveness & Deadlocks
   - Warm-up exercise: make the simplest deadlock in Java
-     -  pcd.lab04.liveness.deadlock_simplest.TestDeadlockedResource
+     -  pcd.lab04.liveness.deadlock_simplest.TestDeadlockSimplest
 	  - Analysis using VisualVM
 	  - Verification using JPF 
-  - More complex example: AccountManager in pcd.lab03.liveness.accounts 
+  - More complex example: AccountManager in pcd.lab04.liveness.accounts 
      - requirements
        - no race conditions in updating individual accounts
        - transfer between accounts should be atomic 
@@ -32,7 +32,7 @@ v.1.0.0-20250316
      - `pcd.lab04.monitors.BoundedBuffer1`, `pcd.lab05.monitors.BoundedBuffer2`
 - Work-in-Lab
   - Exercise #1 -  Implementing Barrier monitor - `pcd.lab04.monitors.ex_barrier`
-  - Exercise #2 -  Implementing Latch monitor - `pcd.lab04.monitors.ex_latch`
+  - Exercise #2 -  Implementing Latch monitor - `pcd.lab04.monitors.ex_latch`  
 - Testing signalling discipline semantics in Java
   - the S&C signalling discipline effects - different behaviours 
      - pcd.lab04.monitors.TestSemantics1 (raw monitor impl)
